@@ -1,0 +1,10 @@
+data size 2048
+
+baseline 93.49s
+O3 93.53
+switch 9.66s 
+simd 7.13s
+openmp 3.21s
+affinity compact 0.374s
+numactl 0.363s
+AVX 0.154s
